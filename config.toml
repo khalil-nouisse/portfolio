@@ -96,15 +96,15 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
   name = ">_ Fluka"
   profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
   # Social and contact information
-  email = "john.doe@example.com"
-  github = "https://github.com/johndoe"
-  github_username = "johndoe"
-  linkedin = "https://linkedin.com/in/johndoe"
-  linkedin_username = "johndoe"
-  twitter = "https://twitter.com/johndoe"
-  twitter_username = "johndoe"
+  email = "m.benabdelkader02@gmail.com"
+  github = "https://github.com/mehdibenabdelkader"
+  github_username = "mehdibenabdelkader"
+  linkedin = "https://linkedin.com/in/mehdibenabdelkader"
+  linkedin_username = "mehdi benabdelkader"
+  twitter = "https://twitter.com/B_MehdiFluka"
+  twitter_username = "Mehdi 'Fluka' Benabdelkader"
   # Add other social links as needed by the theme or your content
-  # discord = "johndoe#1234"
+  discord = "_fluka"
   # medium = "https://medium.com/@johndoe"
   # leetcode = "https://leetcode.com/johndoe"
   # monkeytype = "https://monkeytype.com/profile/johndoe"
