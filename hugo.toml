@@ -1,1 +1,27 @@
 theme = 'hugo-noir'
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    pageRef = "/experience"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "/blogs"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
+    pageRef = "/contact"
+    weight = 5 
+  [[menu.main]]
+    name = "test" # Note: "Contact" is used in language-specific menus above for consistency
+    pageRef = "/test"
+    weight = 6 
