@@ -4,10 +4,10 @@ draft: false
 layout: "experience"
 ---
 
-My career path has been defined by a passion for pushing technological boundaries and delivering impactful solutions in Machine Learning, AI, and Software Development.
+I’m driven by curiosity — the kind that doesn’t settle for just knowing how something works, but why it works, and how it could work better.
 
-As you'll discover, each role in my journey has been more than just a position—it's been an opportunity to solve complex problems and create meaningful technological advancements. From developing sophisticated financial prediction models at Marva.ai to engineering efficient ML pipelines at Knowledge Solutions India, and pioneering digital marketing strategies at Laugh Out Loud Ventures, each experience has built upon the last.
+That mindset has taken me across a wide range of roles: building network infrastructures, developing and designing full-stack applications, automating complex tasks, and even mentoring students on their first lines of code. I didn’t follow a narrow path — I followed questions. 
 
-And like my continued contributions to Open Source, I'm just getting started.
+This flexibility isn’t random — it’s the result of a constant drive to explore, adapt, and deliver value wherever it’s needed most.
 
-The question isn't whether you need someone with my skills—it's whether you're ready for the results I deliver.
+I’m not limited by job titles or tech stacks. I’m guided by the problem — and the curiosity to solve it.

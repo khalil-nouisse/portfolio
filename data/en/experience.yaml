@@ -5,12 +5,12 @@ experience:
     period: "Fev 2025 - Jul 2025"
     country: "Casablanca, Morocco"
     logo: ""
-    description: "Deployed an IT reference environment to validate the network and security design of the fixed services platform."
+    description: "Designed and deployed a scalable IP test environment integrated securely with production to validate network architecture and configurations."
     responsibilities:
-      - "Designed a modular IP REF for fixed access solutions (ADSL, FTTH, VDSL), achieving 100% success in critical test scenarios in pre-production."
-      - "Deployed a scalable platform architecture to support flexible service integration and future expansion."
-      - "Reinforced security and access control through the implementation of a dedicated firewall and integration with a centralized SOC."
-      - "Implemented a cloud layer and advanced automation (Ansible, RESTCONF) to optimize testing and validation workflows."
+      - " - Simulated the target network architecture on GNS3, fully configuring IS-IS for IGP, MPLS with LDP, iBGP and MP-BGP for routing and label distribution."
+      - " - Implemented traffic separation by configuring VRFs to isolate multiple routing domains within the simulated environment."
+      - " - Integrated the test reference environment with the production network, enforcing strict security policies including VPN-based secure access and role-based access control."
+      - " - Implemented a cloud layer and advanced automation (Ansible, RESTCONF) to optimize testing and validation workflows."
 
   - company: "inwi - (National Operator & Internet Service Provider) " 
     company_link: "https://inwi.ma/"

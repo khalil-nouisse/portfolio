@@ -3,8 +3,10 @@ title: "About Me"
 draft: false
 layout: "about"
 ---
-I have been working with ML models, data and AI  for the past 7 years of my life and I’ve got this drive to push boundaries and make things happen. I love the rush of cracking a tough problem, whether it’s coding something new or figuring out how far I can take a wild idea. Building stuff that’s smart and useful? That’s my jam.
+I’m an aspiring Network, Systems, and Security Engineer with hands-on experience at a national ISP, passionate about IT and Computer Science.
 
-This portfolio’s me in a nutshell—projects I’ve messed with, blogs where I ramble. I’m into creating, learning, and not settling for boring. If you’re curious, hit me up on any of my socials. Let’s see what’s next.
+A naturally curious mind, I'm a firm believer that the best way to understand how something works is to break it, and try to put it back together again. I enjoy learning about new topics, building things, and connecting ideas across different fields.
 
-I'm currently available for internships and full-time opportunities. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life!
+Besides Network engineering, I am interested in Design, Game Development and Tech in general.
+
+If I am not by my desk, I am probably out chasing sunrises and sunsets.

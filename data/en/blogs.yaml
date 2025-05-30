@@ -1,15 +1,10 @@
 blogs:
-  - title: "How I built a Swarm of AI Agents with LangChain"
-    date: "2025-03-18"
-    summary: "This blog explains in detail how I built my project during the weekend (which you can too!), an Emergency Travel Response System."
-    tags: ["LangChain", "LangGraph", "LangSmith", "OpenAI"]
-    content: "The emergency response process starts when a user provides input describing their emergency situation. This input could be a text message, voice input, or any other form of communication."
-    link: "https://medium.com/@prxshetty/how-i-built-a-swarm-of-ai-agents-with-langchain-2e0916ce0d38"
+  - title: "Working on integrating blogs"
+    date: "Coming Soon"
+    summary: "stay tuned"
+    tags: []
+    content: ""
+    link: "/blogs"
 
-  - title: "Why AI Still Forgets — And How We're Fixing It"
-    date: "2025-03-04"
-    summary: "Hey everyone! So, you know how Large Language Models (LLMs) sometimes seem a bit… forgetful?"
-    tags: ["LLM", "Research", "architecture"]
-    content: "Scribe, ElevenLabs' breakthrough AI transcription model, sets a new benchmark in accuracy and efficiency for speech-to-text technology..."
-    link: "https://medium.com/@prxshetty/why-ai-still-forgets-and-how-were-fixing-it-7d3597f02638"
+
 

@@ -3,6 +3,8 @@ location: "Kenitra, Morocco"
 description: "IP Network Intern @Inwi | IT Enthusiast Exploring Networking, Cloud & DevOps | I Design posters in my free time."
 profile_image: "/images/profile.jpg"
 
+Content: "test"
+
 social:
   discord: "_fluka"
   github: "https://github.com/Mehdibenabdelkader"
@@ -15,12 +17,9 @@ social:
   instagram: "https://www.instagram.com/pega_suus/"
   
 honors:
-  - institution: "K K Wagh Arts Commerce Science and Computer Science College"
-    title: "Academic Topper"
-    date: "March 2023"
-  - institution: "Podar International School, Nashik"
-    title: "Academic Excellence Award"
-    date: "October 2017"
+  - institution: "National School of Applied Sciences - Kenitra"
+    title: "Network and Telecoms Systems engineer"
+    date: "Jul 2025"
 
 certifications:
   - title: "AI Vector Search Professional"
