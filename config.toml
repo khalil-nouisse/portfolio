@@ -19,24 +19,25 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        pageRef = "/hugo-portfolio/about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        pageRef = "/about/" # Corresponds to content/en/about.md or content/en/about/_index.md
         weight = 1
       [[languages.en.menu.main]]
         name = "Experience"
-        pageRef = "/hugo-portfolio/experience"
+        pageRef = "/experience/"
         weight = 2
       [[languages.en.menu.main]]
         name = "Projects"
-        pageRef = "/hugo-portfolio/projects"
+        pageRef = "/projects/"
         weight = 3
       [[languages.en.menu.main]]
         name = "Blog"
-        pageRef = "/hugo-portfolio/blogs" # Assumes a section named 'blogs'
+        pageRef = "/blogs/" # Assumes a section named 'blogs'
         weight = 4
       [[languages.en.menu.main]]
         name = "Contact"
-        pageRef = "/hugo-portfolio/contact"
+        pageRef = "/contact/"
         weight = 5
+
 
 
 
@@ -59,21 +60,21 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 [menu]
   [[menu.main]]
     name = "About"
-    pageRef = "/hugo-portfolio/about"
+    pageRef = "/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
-    pageRef = "/hugo-portfolio/experience"
+    pageRef = "/experience/"
     weight = 2
   [[menu.main]]
     name = "Projects"
-    pageRef = "/hugo-portfolio/projects"
+    pageRef = "/projects/"
     weight = 3
   [[menu.main]]
     name = "Blog"
-    pageRef = "/hugo-portfolio/blogs"
+    pageRef = "/blogs/"
     weight = 4
   [[menu.main]]
     name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
-    pageRef = "/hugo-portfolio/contact"
+    pageRef = "/contact/"
     weight = 5 
