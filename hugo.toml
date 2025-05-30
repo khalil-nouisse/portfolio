@@ -132,3 +132,6 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     pageRef = "/contact"
     weight = 5 
   
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
