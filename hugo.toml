@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://flukastudio.me/hugo-portfolio/en/"
 languageCode = 'en-us'
 title = '>_ Fluka - Portfolio & Blog'
 theme = 'hugo-noir' # This is the theme you are usin
