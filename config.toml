@@ -1,4 +1,4 @@
-baseURL = "http://flukastudio.me/hugo-portfolio/en/"
+baseURL = "http://flukastudio.me/hugo-portfolio/"
 languageCode = 'en-us'
 title = '>_ Fluka - Portfolio & Blog'
 theme = 'hugo-noir' # This is the theme you are usin
@@ -19,23 +19,23 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        pageRef = "hugo-portfolio//about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        pageRef = "/hugo-portfolio/about" # Corresponds to content/en/about.md or content/en/about/_index.md
         weight = 1
       [[languages.en.menu.main]]
         name = "Experience"
-        pageRef = "hugo-portfolio/experience"
+        pageRef = "/hugo-portfolio/experience"
         weight = 2
       [[languages.en.menu.main]]
         name = "Projects"
-        pageRef = "hugo-portfolio/projects"
+        pageRef = "/hugo-portfolio/projects"
         weight = 3
       [[languages.en.menu.main]]
         name = "Blog"
-        pageRef = "hugo-portfolio/blogs" # Assumes a section named 'blogs'
+        pageRef = "/hugo-portfolio/blogs" # Assumes a section named 'blogs'
         weight = 4
       [[languages.en.menu.main]]
         name = "Contact"
-        pageRef = "hugo-portfolio/contact"
+        pageRef = "/hugo-portfolio/contact"
         weight = 5
 
 
@@ -59,21 +59,21 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 [menu]
   [[menu.main]]
     name = "About"
-    pageRef = "/about"
+    pageRef = "/hugo-portfolio/about"
     weight = 1
   [[menu.main]]
     name = "Experience"
-    pageRef = "/experience"
+    pageRef = "/hugo-portfolio/experience"
     weight = 2
   [[menu.main]]
     name = "Projects"
-    pageRef = "/projects"
+    pageRef = "/hugo-portfolio/projects"
     weight = 3
   [[menu.main]]
     name = "Blog"
-    pageRef = "/blogs"
+    pageRef = "/hugo-portfolio/blogs"
     weight = 4
   [[menu.main]]
     name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
-    pageRef = "/contact"
+    pageRef = "/hugo-portfolio/contact"
     weight = 5 
