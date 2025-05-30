@@ -20,9 +20,9 @@ experience:
     logo: ""
     description: "Participated in the migration process of Base Station Controller (BSC) in the region of Marrackech"
     responsibilities:
-      - "Successfully migrated a BSC to a new IP infrastructure, maintaining 99.9% uptime."
-      - "Deployed an IP network connecting 10+ hosts to an MPLS backbone using IS-IS, LDP, and BGP"
-      - "Wrote technical documentation with detailed configurations and testing procedures"
+      - " - Simulated a production-grade MPLS network interconnecting 10+ hosts using IS-IS (L1/L2), LDP, and BGP in a lab environment to validate routing policies, label distribution, and end-to-end service delivery before deployment."
+      - " - Migrated a Base Station Controller (BSC) to a new IP infrastructure by reconfiguring routing and interface parameters, ensuring protocol continuity and maintaining 99.9% uptime during cutover."
+      - " - Authored technical documentation detailing network configurations, protocol behaviors, and step-by-step testing procedures for validation and troubleshooting."
 
   - company: "Urban Agency Kenitra"
     company_link: ""
@@ -32,8 +32,8 @@ experience:
     logo: ""
     description: "Built a data management web app and optimized data entry."
     responsibilities:
-      - "Built a web app for database management, reducing entry time by 60%"
-      - "Automated migration of 5,000+ records from legacy DB to a normalized MySQL structure, improving query speed by 40%."
+      - " - Developed a web-based database management tool using PHP, integrating CRUD operations and input validation, which reduced data entry time by 60%."
+      - " - Automated migration of 5,000+ records from a legacy database to a normalized MySQL schema using custom python scripts, improving query performance by 40%."
 
   - company: "Algorithmics"
     company_link: ""
@@ -43,8 +43,8 @@ experience:
     logo: ""
     description: "Delivered over 150 hours of training to beginners (ages 10–14)."
     responsibilities:
-      - "Delivered over 150 hours of training to beginners (ages 10–14)."
-      - "Mentored intermediate students (ages 16–17) in projects like 2D games and web apps."
+      - " - Delivered 150+ hours of beginner programming education, introducing languages such as Python and basic algorithms to students aged 10–14."
+      - " - Mentored 16–17-year-olds through coding projects, fostering problem-solving skills and best practices in software design and testing."
   
   - company: "AMEE"
     company_link: ""
@@ -54,6 +54,6 @@ experience:
     logo: "/images/company/lol.png"
     description: "Built a Desktop application for the management of interns data"
     responsibilities:
-      - "Built a Desktop application for the management of interns data eliminating the need for paper format documents"
-      - "Deployed a centralized and normalized MySQL structure to host interns data"
-      - "Automated onboarding and ticket generations process using GLPI"
+      - " - Developeded a desktop app for intern data management using Python, implementing secure data storage and streamlined retrieval to replace manual paper processes."
+      - " - Wrote comprehensive unit tests with PyTest, improving code coverage and catching bugs early in the development cycle."
+      - " - Created and maintained comprehensive technical documentation, including inline code comments, API references, and user guides to facilitate knowledge transfer and ensure project continuity."
