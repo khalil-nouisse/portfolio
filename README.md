@@ -5,7 +5,7 @@ A modern, minimalist portfolio website built with Hugo, featuring a dark theme a
 ## Todo
 - [x] fix the data display on home page
 - [x] add placeholder for blog page
-- [ ] update personal info
+- [x] update personal info
 - [ ] Add support for blog page rendering from md files (just like old portfolio)
 - [ ] Make themes with new color
 - [ ] (maybe) turn this one to a new theme
