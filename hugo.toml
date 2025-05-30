@@ -19,23 +19,23 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
+        pageRef = "hugo-portfolio//about" # Corresponds to content/en/about.md or content/en/about/_index.md
         weight = 1
       [[languages.en.menu.main]]
         name = "Experience"
-        pageRef = "/experience"
+        pageRef = "hugo-portfolio/experience"
         weight = 2
       [[languages.en.menu.main]]
         name = "Projects"
-        pageRef = "/projects"
+        pageRef = "hugo-portfolio/projects"
         weight = 3
       [[languages.en.menu.main]]
         name = "Blog"
-        pageRef = "/blogs" # Assumes a section named 'blogs'
+        pageRef = "hugo-portfolio/blogs" # Assumes a section named 'blogs'
         weight = 4
       [[languages.en.menu.main]]
         name = "Contact"
-        pageRef = "/contact"
+        pageRef = "hugo-portfolio/contact"
         weight = 5
 
 
