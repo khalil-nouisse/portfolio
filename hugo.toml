@@ -1,4 +1,4 @@
-baseURL = "http://flukastudio.me/hugo-portfolio/"
+baseURL = "http://flukastudio.me/"
 languageCode = 'en-us'
 title = '>_ Fluka - Portfolio & Blog'
 theme = 'hugo-noir' # This is the theme you are usin
@@ -40,6 +40,7 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 
 
 
+
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -59,7 +60,7 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 [menu]
   [[menu.main]]
     name = "About"
-    pageRef = "/hugo-portfolio/en/about/"
+    pageRef = "/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
