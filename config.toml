@@ -8,7 +8,7 @@ relativeURLs = true
 canonifyURLs = true
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
+defaultContentLanguageInSubdir = false # Creates URLs like /en/blog/
 
 [taxonomies]
   category = "categories"
