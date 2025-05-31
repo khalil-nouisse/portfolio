@@ -10,37 +10,6 @@ canonifyURLs = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Fluka - Portfolio & Blog"
-    weight = 1
-    contentDir = "content/en"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        name = "About"
-        pageRef = "/about/" # Corresponds to content/en/about.md or content/en/about/_index.md
-        weight = 1
-      [[languages.en.menu.main]]
-        name = "Experience"
-        pageRef = "/experience/"
-        weight = 2
-      [[languages.en.menu.main]]
-        name = "Projects"
-        pageRef = "/projects/"
-        weight = 3
-      [[languages.en.menu.main]]
-        name = "Blog"
-        pageRef = "/blogs/" # Assumes a section named 'blogs'
-        weight = 4
-      [[languages.en.menu.main]]
-        name = "Contact"
-        pageRef = "/contact/"
-        weight = 5
-
-
-
-
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -60,21 +29,21 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 [menu]
   [[menu.main]]
     name = "About"
-    pageRef = "/about/"
+    pageRef = "/about"
     weight = 1
   [[menu.main]]
     name = "Experience"
-    pageRef = "/experience/"
+    pageRef = "/experience"
     weight = 2
   [[menu.main]]
     name = "Projects"
-    pageRef = "/projects/"
+    pageRef = "/projects"
     weight = 3
   [[menu.main]]
     name = "Blog"
-    pageRef = "/blogs/"
+    pageRef = "/blogs"
     weight = 4
   [[menu.main]]
     name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
-    pageRef = "/contact/"
+    pageRef = "/contact"
     weight = 5 
