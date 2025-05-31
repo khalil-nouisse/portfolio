@@ -28,22 +28,22 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 
 [menu]
   [[menu.main]]
-    name = "About"
-    pageRef = "/about"
+    name = "About Me"
+    pageRef = "/about/"
     weight = 1
   [[menu.main]]
     name = "Experience"
-    pageRef = "/experience"
+    pageRef = "/experience/"
     weight = 2
   [[menu.main]]
     name = "Projects"
-    pageRef = "/projects"
+    pageRef = "/projects/"
     weight = 3
   [[menu.main]]
     name = "Blog"
-    pageRef = "/blogs"
+    pageRef = "/blogs/"
     weight = 4
   [[menu.main]]
     name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
-    pageRef = "/contact"
+    pageRef = "/contact/"
     weight = 5 
