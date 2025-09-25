@@ -3,7 +3,7 @@ projects:
     description: "A lightweight HTTP server built in C from scratch, handling basic GET requests and serving static content to demonstrate low-level network programming and socket management."
     tech: "C, HTTP, Socket management"
     image: "/images/projects/placeholder.png"
-    link: "https://github.com/Mehdibenabdelkader/Simple-C-Webserver"
+    link: "https://github.com/khalil-nouisse/Simple-C-Webserver"
     
   - title: "Morchid : Your AI travel Guide (Hackathon Project)"
     description: "Morchid is an AI-powered travel guide that provides personalized destination recommendations, itineraries, and tips to help users plan smarter, more efficient trips."
@@ -15,13 +15,13 @@ projects:
     description: "An AI-driven recycling solution that classifies banana tree roots into recyclable and non-recyclable categories, enabling efficient, sustainable paper production from agricultural waste."
     tech: "Python, React, Raspberry Pi 4, Machine Learning"
     image: "/images/projects/placeholder.png"
-    link: "https://github.com/Mehdibenabdelkader/Ecofiber"
+    link: "https://github.com/khalil-nouisse/Ecofiber"
 
   - title: "Missile Mayhem - Video Game"
     description: "An arcade video game made with godot and gdscript"
     tech: "Godot, GDscript"
     image: "/images/projects/placeholder.png"
-    link: "https://flukaakaboat.itch.io/missile-mayhem"
+    link: "https://Khalilakaboat.itch.io/missile-mayhem"
 
   - title: "Sihati : Health monitor (Hackathon Project)"
     description: "Trying out Intel's MiDaS Model with greyscale and Upscaler for better results."
@@ -33,10 +33,10 @@ projects:
     description: "A beginner-friendly website that teaches the essentials of cooking, grocery shopping, and food storage — helping anyone build confidence and independence in the kitchen."
     tech: "Next.js, React hooks, OpenAI API"
     image: "/images/projects/placeholder.png"
-    link: "https://github.com/Mehdibenabdelkader/survival-eats"
+    link: "https://github.com/khalil-nouisse/survival-eats"
 
   - title: "Resumify"
     description: "A CLI tool that assists users in crafting impactful, tailored CVs by guiding content creation, formatting, and optimization for job applications."
     tech: "Python, HTML"
     image: "/images/projects/placeholder.png"
-    link: "https://github.com/Mehdibenabdelkader/Resumify"
+    link: "https://github.com/khalil-nouisse/Resumify"

@@ -1,6 +1,6 @@
-baseURL = "http://flukastudio.me"
+baseURL = "http://Khalilstudio.me"
 languageCode = 'en-us'
-title = '>_ Fluka - Portfolio & Blog'
+title = '>_ Khalil - Portfolio & Blog'
 theme = 'hugo-noir' # This is the theme you are usin
 # This is the theme you are using
 
@@ -15,16 +15,16 @@ defaultContentLanguageInSubdir = false # Creates URLs like /en/blog/
   tag = "tags"
 
 [params]
-  name = ">_ Fluka"
+  name = ">_ Khalil"
   profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
-  email = "m.benabdelkader02@gmail.com"
-  github = "https://github.com/mehdibenabdelkader"
+  email = "khalil.ait.nouisse1@gmail.com"
+  github = "https://github.com/khalil-nouisse"
   github_username = "mehdibenabdelkader"
-  linkedin = "https://linkedin.com/in/mehdibenabdelkader"
+  linkedin = "https://www.linkedin.com/in/khalil-ait-nouisse-8ab972248/"
   linkedin_username = "Mehdibenabdelkader"
-  twitter = "https://twitter.com/B_MehdiFluka"
-  twitter_username = "Mehdi 'Fluka' Benabdelkader"
-  discord = "_fluka"
+  twitter = "https://twitter.com/B_MehdiKhalil"
+  twitter_username = "Mehdi 'Khalil' Benabdelkader"
+  discord = "_Khalil"
 
 [menu]
   [[menu.main]]
