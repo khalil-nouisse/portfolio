@@ -4,10 +4,9 @@ draft: false
 layout: "experience"
 ---
 
-I’m driven by curiosity — the kind that doesn’t settle for just knowing how something works, but why it works, and how it could work better.
+I’m a passionate builder who thrives on tackling complex problems and turning ideas into reality. Breaking things down, experimenting, and rebuilding is how I learn best—it’s where curiosity meets creativity.
 
-That mindset has taken me across a wide range of roles: building network infrastructures, developing and designing full-stack applications, automating complex tasks, and even mentoring students on their first lines of code. I didn’t follow a narrow path — I followed questions. 
 
-This flexibility isn’t random — it’s the result of a constant drive to explore, adapt, and deliver value wherever it’s needed most.
+My work spans AI, Machine Learning, and Software Engineering, with a focus on backend systems, multi-agent architectures, and intelligent applications. I love exploring how different technologies and ideas intersect to create innovative solutions.
 
-I’m not limited by job titles or tech stacks. I’m guided by the problem — and the curiosity to solve it.
+When I’m not coding or experimenting, you’ll find me outdoors, chasing sunrises and sunsets for inspiration and perspective.
