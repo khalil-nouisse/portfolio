@@ -1,10 +1,11 @@
-name: "Khalil Ait Nouisse"
-location: "Meknes, Morocco"
-description: "AI Software Engineering Student | IT Enthusiast Exploring AI, Cloud & DevOps | I play Basket-Ball in my free time."
-profile_image: "/images/profile.jpg"
+# Add this "author:" key at the very top.
+author:
+  name: ">_ Khalil Ait Nouisse"
+  location: "Meknes, Morocco"
+  description: "AI Software Engineering Student | IT Enthusiast Exploring AI and Cloud."
+  profile_image: "/images/profile.jpg"
 
-
-social:
+  # Social links must be at this level, not inside a "social:" block
   discord: "khalil_nouisse"
   github: "https://github.com/khalil-nouisse"
   github_username: "khalil-nouisse"
@@ -14,42 +15,43 @@ social:
   linkedin: "https://www.linkedin.com/in/khalil-ait-nouisse-8ab972248/"
   linkedin_username: "khalil ait nouisse"
   instagram: "https://www.instagram.com/khalilnouisse/"
-  
-education:
-  - institution: "National School of Arts and Crafts - Meknes, Morocco"
-    title: "Software & Intelligent Systems Engineering"
-    date: "Sep 2024 - Jul 2027"
-  - institution: "Faculty of Science & Technology - Mohammedia, Morocco"
-    title: "Mathematics & Computer Science"
-    date: "Sep 2022 - Jul 2024"
-  - institution: "High School (Baccalaureate) - Taroudant, Morocco"
-    title: "Science diploma (Physics)"
-    date: "Jul 2022"
 
-certifications:
-  - title: "Python Essentials 1"
-    company: "Cisco"
-    date: "Aug 2025"
-    url: "https://www.credly.com/earner/earned/badge/3dc6d0c5-0fe8-4435-aa76-552d725553b5"
-  - title: "Version Control With GIT & GitHub"
-    company: "365 Data Science"
-    date: "Nov 2024"
-    url: "https://learn.365datascience.com/certificates/CC-30DDB9C238/"
-  - title: "Intermediate Python"
-    company: "DataCamp"
-    date: "Nov 2024"
-    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/6e5f82016eb9f8e703a97c50d650257164dbedc5"
-  - title: "Introduction to Python"
-    company: "DataCamp"
-    date: "Nov 2024"
-    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/6e5f82016eb9f8e703a97c50d650257164dbedc5"
-  
-voluntary:
-  - role: "Sponsorship and Contact Lead"
-    organization: "GadzIT - (University IT Club)"
-    period: "2024 - now"
-    description: "As Sponsorship & Contact Lead at GadzIT, I drove partnerships and secured sponsorships, helping connect the club with industry and expand its impact."
-  - role: "Project Leader"
-    organization: "Enactus Ensam Meknes - (University Social enteprenernship Club)"
-    period: "2024 - now"
-    description: "Leader of 'GreenMedina' project , a sustainable virtual guide for Moroccan Medina, promoting eco-friendly tourism and local culture."
+  # The rest of your data, correctly indented
+  education:
+    - institution: "National School of Arts and Crafts - Meknes, Morocco"
+      title: "Software & Intelligent Systems Engineering"
+      date: "Sep 2024 - Jul 2027"
+    - institution: "Faculty of Science & Technology - Mohammedia, Morocco"
+      title: "Mathematics & Computer Science"
+      date: "Sep 2022 - Jul 2024"
+    - institution: "High School (Baccalaureate) - Taroudant, Morocco"
+      title: "Science diploma (Physics)"
+      date: "Jul 2022"
+
+  certifications:
+    - title: "Python Essentials 1"
+      company: "Cisco"
+      date: "Aug 2025"
+      url: "https://www.credly.com/earner/earned/badge/3dc6d0c5-0fe8-4435-aa76-552d725553b5"
+    - title: "Version Control With GIT & GitHub"
+      company: "365 Data Science"
+      date: "Nov 2024"
+      url: "https://learn.365datascience.com/certificates/CC-30DDB9C238/"
+    - title: "Intermediate Python"
+      company: "DataCamp"
+      date: "Nov 2024"
+      url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/6e5f82016eb9f8e703a97c50d650257164dbedc5"
+    - title: "Introduction to Python"
+      company: "DataCamp"
+      date: "Nov 2024"
+      url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/6e5f82016eb9f8e703a97c50d650257164dbedc5"
+
+  voluntary:
+    - role: "Sponsorship and Contact Lead"
+      organization: "GadzIT - (University IT Club)"
+      period: "2024 - now"
+      description: "As Sponsorship & Contact Lead at GadzIT, I drove partnerships and secured sponsorships, helping connect the club with industry and expand its impact."
+    - role: "Project Leader"
+      organization: "Enactus Ensam Meknes - (University Social enteprenernship Club)"
+      period: "2024 - now"
+      description: "Leader of 'GreenMedina' project , a sustainable virtual guide for Moroccan Medina, promoting eco-friendly tourism and local culture."
