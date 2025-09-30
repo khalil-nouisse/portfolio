@@ -2,10 +2,10 @@
 author:
   name: ">_ Khalil Ait Nouisse"
   location: "Meknes, Morocco"
-  description: "AI Software Engineering Student | IT Enthusiast Exploring AI, Cloud & DevOps | I play Basket-Ball in my free time."
+  description: "AI Software Engineering Student | IT Enthusiast Exploring AI and Cloud technologies."
   # The specific social links used on the homepage
   email: "khalil.ait.nouisse1@gmail.com"
-
+  profile_image: "/images/profile.jpg" 
   # Social links must be at this level, not inside a "social:" block
   discord: "khalil_nouisse"
   github: "https://github.com/khalil-nouisse"
@@ -16,6 +16,10 @@ author:
   linkedin: "https://www.linkedin.com/in/khalil-ait-nouisse-8ab972248/"
   linkedin_username: "khalil ait nouisse"
   instagram: "https://www.instagram.com/khalilnouisse/"
+
+
+
+profile_image: "/images/profile.jpg"
 
 # The rest of your data, correctly indented
 education:

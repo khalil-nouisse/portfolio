@@ -19,12 +19,12 @@ defaultContentLanguageInSubdir = false # Creates URLs like /en/blog/
   profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
   email = "khalil.ait.nouisse1@gmail.com"
   github = "https://github.com/khalil-nouisse"
-  github_username = "mehdibenabdelkader"
+  github_username = "khalil-nouisse"
   linkedin = "https://www.linkedin.com/in/khalil-ait-nouisse-8ab972248/"
-  linkedin_username = "Mehdibenabdelkader"
-  twitter = "https://twitter.com/B_MehdiKhalil"
-  twitter_username = "Mehdi 'Khalil' Benabdelkader"
-  discord = "_Khalil"
+  linkedin_username = "khalilaitnouisse"
+  twitter = "https://x.com/nouisse_ait"
+  twitter_username = "nouisse_khalil"
+  discord = "ait_nouisse"
 
 [menu]
   [[menu.main]]
