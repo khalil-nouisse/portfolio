@@ -3,23 +3,23 @@ projects:
     description: "A multi-agent system, based on a supervisor coordinating specialized agents (Sales, Technical Support, Customer Service, Email, and Diagnostics), and integrated it into a CRM application to automate tasks and improve customer interactions."
     tech: "Python, LangChain, LangGraph , LangSmith , Redis, FastAPI"
     image: "/images/projects/multi_agents.png"
-    link: "https://github.com/khalil-nouisse/Simple-C-Webserver"
+    link: "https://github.com/khalil-nouisse/multi-agent/tree/diagnostics_agent"
     
   - title: "XP-FIT : mobile fitness app with Flutter"
     description: "A Flutter-based mobile app that empowers users to reach their fitness goals through gamification, personalized progress tracking, and intelligent nutrition guidance. It provides tailored workout plans, daily challenges, and real-time progress insights to boost motivation and keep users engaged."
     tech: "FLutter, Dart, Android studio, SQLite ,Github "
     image: "/images/projects/XP_FIT.jpg"
-    link: "https://github.com/AyaBenkabbour/Morchid"
+    link: "https://github.com/khalil-nouisse/XP-FIT"
 
   - title: "ENSAM meknes Clubs Manager Desktop App"
     description: "A desktop application built with Java and JavaFX, designed to streamline the management and coordination of student clubs. The system centralizes club activities, membership, and event organization, making administration more efficient and collaborative."
     tech: "Java, JavaFX, MySQL, Scene Builder"
     image: "/images/projects/CLUBS_MANAGER.png"
-    link: "https://github.com/khalil-nouisse/Ecofiber"
+    link: "https://github.com/khalil-nouisse/ENSAM_CLUBS_MANAGER/tree/User-about"
 
   - title: "X-GATE : AI Copilot for Businesses"
     description: "A platform designed for Moroccan businesses to securely manage their data, and receive valuable analytical insights. integrates a conversational copilot that assists businesses in decision-making and offers deeper perspectives on their data."
     tech: "Next.js, Machine Learning, LangChain, Ollama, Docker , BeautifulSoup, Selenium, FAISS ,FastApi"
     image: "/images/projects/XGATE.png"
-    link: "https://Khalilakaboat.itch.io/missile-mayhem"
+    link: ""
 

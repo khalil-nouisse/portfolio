@@ -312,22 +312,7 @@
     {{ $blogsData := index site.Data .Language.Lang "blogs" }}
     {{ $blogs := cond (and $blogsData $blogsData.blogs) $blogsData.blogs site.Params.blogs }}
         
-    {{ with $blogs }}
-    <section class="mt-20 mb-20">
-        <div class="flex justify-between items-center mb-8">
-            <h2 class="text-4xl font-bold">{{ T "blogsTitle" }}</h2>
-        </div>
-        <div class="space-y-8 max-w-3xl mx-auto">
-            {{ range first 3 . }}
-            {{ end }}
-        </div>
-        <div class="flex justify-center mt-8">
-            <a href="{{ "blogs/" | absLangURL }}" class="text-blue-500 hover:text-blue-400 transition-colors duration-200 text-lg">{{ T "viewAll" }}</a>
-        </div>
-    </section>
-    {{ else }}
-    {{ warnf "No blog data found for language %q. Please define either data/%s/blogs.(yaml|toml|json) or params.blogs in config." .Language.Lang .Language.Lang }}
-    {{ end }}
+    
 </div>
 
 <style>
