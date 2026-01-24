@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>khalil ait nouisse on &gt;_ Khalil - Portfolio &amp; Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://Khalilstudio.me/</link>
     <description>Recent content in khalil ait nouisse on &gt;_ Khalil - Portfolio &amp; Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://Khalilstudio.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://Khalilstudio.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I’m a passionate builder who thrives on tackling complex problems and turning ideas into reality. Breaking things down, experimenting, and rebuilding is how I learn best—it’s where curiosity meets creativity.&lt;/p&gt;&#xA;&lt;p&gt;My work spans AI, Machine Learning, and Software Engineering, with a focus on backend systems, multi-agent architectures, and intelligent applications. I love exploring how different technologies and ideas intersect to create innovative solutions.&lt;/p&gt;&#xA;&lt;p&gt;When I’m not coding or experimenting, you’ll find me outdoors, chasing sunrises and sunsets for inspiration and perspective.&lt;/p&gt;</description>
+      <guid>http://Khalilstudio.me/about/</guid>
+      <description>&lt;p&gt;I’m a passionate builder who learns by breaking complex problems down and rebuilding them better.&lt;/p&gt;&#xA;&lt;p&gt;My focus is on Cloud &amp;amp; Backend Engineering architecting resilient distributed systems with Go, and streamlining infrastructure using Docker and modern DevOps practices. I strive to make software not just functional, but scalable.&lt;/p&gt;&#xA;&lt;p&gt;Offline, I’m an explorer at heart, chasing sunrises and sunsets for perspective.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blogs</title>
-      <link>http://localhost:1313/blogs/</link>
+      <link>http://Khalilstudio.me/blogs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/</guid>
+      <guid>http://Khalilstudio.me/blogs/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact Me</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://Khalilstudio.me/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;You can contact me via Email, Discord, X or LinkedIn. I usually respond within a day.&lt;/p&gt;</description>
+      <guid>http://Khalilstudio.me/contact/</guid>
+      <description>&lt;p&gt;You can contact me via Email, LinkedIn, Discord or X. I usually respond within a day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>http://Khalilstudio.me/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
-      <description>&lt;p&gt;In my experience, I’ve worked on projects at the intersection of AI, Machine Learning, and Software Engineering. I developed a multi-agent system integrated with a CRM application, designed intelligent workflows with supervisor–agent architectures, and contributed to XGATE, a data-driven platform empowering Moroccan businesses with insights and decision support.&lt;/p&gt;&#xA;&lt;p&gt;Beyond AI, I built practical applications such as a fitness mobile app leveraging gamification and personalized tracking, and a desktop Clubs Manager system for ENSAM Meknès to streamline student club administration. These projects reflect my drive to build impactful, scalable solutions that blend technical innovation with real-world utility.&lt;/p&gt;</description>
+      <guid>http://Khalilstudio.me/experience/</guid>
+      <description>&lt;p&gt;In my experience, I’ve worked on projects at the intersection of AI, Backend Engineering, and System Architecture. I designed the global architecture for a multi-agent system integrated with a CRM application, implementing asynchronous communication with Redis and intelligent workflows using LangGraph. I also contributed to X-GATE, an AI-powered platform for businesses, where I built data ingestion pipelines and RAG workflows.&lt;/p&gt;&#xA;&lt;p&gt;Beyond development, I focused on infrastructure and reproducibility by setting up full-stack Docker environments and implementing tracing for agent performance. These projects reflect my drive to build scalable, production-ready solutions that bridge the gap between intelligent algorithms and solid engineering.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>http://Khalilstudio.me/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>http://Khalilstudio.me/projects/</guid>
       <description>&lt;p&gt;Here are some of my recent projects that showcase my skills and interests in technology.&lt;/p&gt;</description>
     </item>
   </channel>

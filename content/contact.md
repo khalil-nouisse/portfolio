@@ -4,4 +4,4 @@ draft: false
 layout: "contact"
 ---
 
-You can contact me via Email, Discord, X or LinkedIn. I usually respond within a day.
+You can contact me via Email, LinkedIn, Discord or X. I usually respond within a day.

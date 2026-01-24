@@ -8,13 +8,15 @@
             {{/* Get the author data from your YAML file */}}
             {{ $authorData := index site.Data .Language.Lang "author" }}
 
-            <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg border border-border-primary-light dark:border-border-primary-dark mb-8">
-                
+            <div
+                class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg border border-border-primary-light dark:border-border-primary-dark mb-8">
+
                 <div class="flex flex-col md:flex-row items-center gap-8 md:gap-10">
 
                     {{ with $authorData.profile_image }}
                     <div class="flex-shrink-0">
-                        <img src="{{ . }}" alt="Profile Picture" class="w-40 h-40 md:w-48 md:h-48 rounded-full shadow-lg object-cover">
+                        <img src="{{ . }}" alt="Profile Picture"
+                            class="w-40 h-40 md:w-48 md:h-48 rounded-full shadow-lg object-cover">
                     </div>
                     {{ end }}
 
@@ -25,19 +27,27 @@
                 </div>
 
             </div>
-            
+
             <br>
-            
-            <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
-                <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">education </h2>
+
+            <div
+                class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
+                <h2
+                    class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">
+                    education </h2>
                 <div class="space-y-6">
                     {{ range $authorData.education }}
-                    <div class="flex flex-col gap-2 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300">
-                        <div class="text-text-secondary-light dark:text-text-secondary-dark text-sm prose">{{ .institution }}</div>
+                    <div
+                        class="flex flex-col gap-2 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300">
+                        <div class="text-text-secondary-light dark:text-text-secondary-dark text-sm prose">{{
+                            .institution }}</div>
                         <div class="flex items-center gap-2">
-                            <h3 class="text-xl md:text-2xl font-semibold text-text-primary-light dark:text-text-primary-dark">{{ .title }}</h3>
+                            <h3
+                                class="text-xl md:text-2xl font-semibold text-text-primary-light dark:text-text-primary-dark">
+                                {{ .title }}</h3>
                         </div>
-                        <div class="text-text-secondary-light dark:text-text-secondary-dark flex items-center gap-2 text-sm prose">
+                        <div
+                            class="text-text-secondary-light dark:text-text-secondary-dark flex items-center gap-2 text-sm prose">
                             <span>{{ .date }}</span>
                         </div>
                     </div>
@@ -45,47 +55,182 @@
                 </div>
             </div>
 
-            <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
-                <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">Certifications</h2>
+            <div
+                class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
+                <h2
+                    class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">
+                    Technical Arsenal</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Cloud & DevOps -->
+                    <div
+                        class="p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark">
+                        <h3
+                            class="text-lg font-semibold text-text-primary-light dark:text-text-primary-dark mb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                            </svg>
+                            Cloud & DevOps
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Docker</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Bash</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">CI/CD</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">OCI</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">AWS</span>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div
+                        class="p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark">
+                        <h3
+                            class="text-lg font-semibold text-text-primary-light dark:text-text-primary-dark mb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            Languages
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Go</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">JavaScript/Node.js</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Python</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">C++</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Systems -->
+                    <div
+                        class="p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark">
+                        <h3
+                            class="text-lg font-semibold text-text-primary-light dark:text-text-primary-dark mb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                                <line x1="6" y1="6" x2="6.01" y2="6" />
+                                <line x1="6" y1="18" x2="6.01" y2="18" />
+                            </svg>
+                            Backend & Systems
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">REST
+                                APIs</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Microservices</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Distributed
+                                Systems</span>
+                        </div>
+                    </div>
+
+                    <!-- Data & AI -->
+                    <div
+                        class="p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark">
+                        <h3
+                            class="text-lg font-semibold text-text-primary-light dark:text-text-primary-dark mb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                            </svg>
+                            Data & AI
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">PostgreSQL</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">MongoDB</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Redis</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">Neo4J</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">LangChain</span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark border border-border-secondary-light dark:border-border-secondary-dark">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
+                <h2
+                    class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">
+                    Certifications</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {{ range $authorData.certifications }}
-                    <a href="{{ .url }}" 
-                       target="_blank"
-                       class="flex flex-col h-full p-4 md:p-6 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark hover:shadow-md transition-all duration-300">
+                    <a href="{{ .url }}" target="_blank"
+                        class="flex flex-col h-full p-4 md:p-6 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark hover:shadow-md transition-all duration-300">
                         <div class="flex items-center justify-between mb-4">
-                            <h3 class="inline-flex items-center text-lg md:text-xl font-semibold text-text-primary-light dark:text-text-primary-dark">
+                            <h3
+                                class="inline-flex items-center text-lg md:text-xl font-semibold text-text-primary-light dark:text-text-primary-dark">
                                 {{ .title }}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 opacity-70 group-hover:opacity-100 transition-opacity duration-200">
-                                    <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="ml-2 opacity-70 group-hover:opacity-100 transition-opacity duration-200">
+                                    <path d="M7 17l9.2-9.2M17 17V7H7" />
                                 </svg>
                             </h3>
                         </div>
-                        <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm prose mb-1">{{ .date }}</p>
+                        <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm prose mb-1">{{ .date
+                            }}</p>
                     </a>
                     {{ end }}
                 </div>
             </div>
 
-            <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
-                <h2 class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">Voluntary Work</h2>
+            <div
+                class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
+                <h2
+                    class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">
+                    Voluntary Work</h2>
                 <div class="space-y-6">
                     {{ range $authorData.voluntary }}
-                    <div class="flex flex-col gap-2 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300">
-                        <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark text-base">
+                    <div
+                        class="flex flex-col gap-2 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300">
+                        <div
+                            class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark text-base">
                             <a href="{{ .url }}" target="_blank" class="animated-link inline-flex items-center gap-2">
                                 {{ .organization }}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 opacity-70 group-hover:opacity-100 transition-opacity duration-200">
-                                    <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="ml-1 opacity-70 group-hover:opacity-100 transition-opacity duration-200">
+                                    <path d="M7 17l9.2-9.2M17 17V7H7" />
                                 </svg>
                             </a>
                         </div>
                         <div class="flex items-center gap-2">
-                            <h3 class="text-xl md:text-2xl font-semibold text-text-primary-light dark:text-text-primary-dark">{{ .role }}</h3>
+                            <h3
+                                class="text-xl md:text-2xl font-semibold text-text-primary-light dark:text-text-primary-dark">
+                                {{ .role }}</h3>
                         </div>
-                        <div class="text-text-secondary-light dark:text-text-secondary-dark flex items-center gap-2 text-base prose">
+                        <div
+                            class="text-text-secondary-light dark:text-text-secondary-dark flex items-center gap-2 text-base prose">
                             <span>{{ .period }}</span>
                         </div>
-                        <p class="text-text-secondary-light dark:text-text-secondary-dark text-base prose">{{ .description }}</p>
+                        <p class="text-text-secondary-light dark:text-text-secondary-dark text-base prose">{{
+                            .description }}</p>
                     </div>
                     {{ end }}
                 </div>
@@ -96,21 +241,30 @@
 
 <style>
     .prose {
-        color: #4b5563; /* text-secondary-light */
+        color: #4b5563;
+        /* text-secondary-light */
         font-size: 1.125rem;
     }
+
     html.dark .prose {
-        color: #9ca3af; /* text-secondary-dark */
+        color: #9ca3af;
+        /* text-secondary-dark */
     }
+
     .prose p {
-        color: #4b5563; /* text-secondary-light */
-        margin-bottom: 1.5rem; /* Corresponds to mb-6 */
+        color: #4b5563;
+        /* text-secondary-light */
+        margin-bottom: 1.5rem;
+        /* Corresponds to mb-6 */
         line-height: 1.9;
     }
+
     html.dark .prose p {
-        color: #9ca3af; /* text-secondary-dark */
+        color: #9ca3af;
+        /* text-secondary-dark */
     }
-    .prose p + p {
+
+    .prose p+p {
         margin-top: 2rem;
     }
 
@@ -119,7 +273,7 @@
         display: inline-flex;
         align-items: center;
     }
-    
+
     .animated-link::after {
         content: '';
         position: absolute;
@@ -127,15 +281,18 @@
         height: 1px;
         bottom: -1px;
         left: 0;
-        background-color: #0284c7; /* accent-light */
+        background-color: #0284c7;
+        /* accent-light */
         transition: width 0.3s ease-in-out;
     }
-    
+
     .animated-link:hover::after {
         width: 100%;
     }
+
     html.dark .animated-link::after {
-        background-color: #0ea5e9; /* accent-dark */
+        background-color: #0ea5e9;
+        /* accent-dark */
     }
 </style>
-{{ end }} 
+{{ end }}
