@@ -1,4 +1,4 @@
-baseURL = "http://Khalilstudio.me"
+baseURL = "https://khalil-nouisse.github.io/portfolio/"
 languageCode = 'en-us'
 title = '>_ Khalil - Portfolio & Blog'
 theme = 'hugo-noir' # This is the theme you are usin
