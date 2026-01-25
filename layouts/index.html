@@ -356,8 +356,7 @@
         </div>
     </section>
     {{ else }}
-    {{ warnf "No project data found for language %q. Please define either data/%s/projects.(yaml|toml|json) or
-    params.projects in config." .Language.Lang .Language.Lang }}
+    {{ warnf "No project data found for language %q. Please define either data/%s/projects.(yaml|toml|json) or     params.projects in config." .Language.Lang .Language.Lang }}
     {{ end }}
 
     {{ $blogsData := index site.Data .Language.Lang "blogs" }}
