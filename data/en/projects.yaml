@@ -6,7 +6,7 @@ projects:
     link: "https://github.com/khalil-nouisse/multi-agent/tree/diagnostics_agent"
   - title: "ENSAM360: Smart Campus Navigation & AI Guide" 
     description: "An immersive smart campus platform combining a 360° virtual tour, a graph-based pathfinding engine for optimal indoor navigation, and a RAG-powered AI assistant (Llama 3 on Groq) to guide students and visitors in real-time."
-    tech: "React, Node.js, Neo4j (Graph DB), Groq LPU, LangChain.js, Docker"
+    tech: "React, Node.js, Neo4j, Groq LPU, LangChain.js, Docker"
     image: "/images/projects/ENSAM360.png"
     link: "https://github.com/khalil-nouisse/ENSAM360"  
   - title: "Polyglot CQRS Architecture with Go & Node.js"
