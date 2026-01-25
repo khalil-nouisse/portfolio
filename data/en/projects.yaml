@@ -27,8 +27,7 @@ projects:
   - title: "ENSAM meknes Clubs Manager Desktop App"
     description: "A desktop application built with Java and JavaFX, designed to streamline the management and coordination of student clubs. The system centralizes club activities, membership, and event organization, making administration more efficient and collaborative."
     tech: "Java, JavaFX, MySQL, Scene Builder"
-    image: "/images/projects/ClUBS_MANAGER.png"
+    image: "/images/projects/CLUBS_MANAGER.png"
     link: "https://github.com/khalil-nouisse/ENSAM_CLUBS_MANAGER/tree/User-about"
 
   
-
