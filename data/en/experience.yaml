@@ -18,7 +18,7 @@ experience:
     period: "Aug 2025 - Sep 2025"
     country: "Full Remote"
     logo: ""
-    description: "Participated in the development of X-GATE, an AI-powered Copilot platform for Buisnesses."
+    description: "Participated in the development of X-GATE, an AI-powered Copilot platform for businesses."
     responsibilities:
       - " - Developed web scraping scripts to collect real estate data from Mubawab and Avito.ma using BeautifulSoup and Selenium."
       - " - Implemented a model ingestion workflow: data preprocessing, feature engineering, FAISS Vector Database integration, and model training using LangChain and Ollama."
