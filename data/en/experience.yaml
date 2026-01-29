@@ -25,7 +25,7 @@ experience:
       - " - Setting up Docker containers for each component (frontend, backend, ML, DB) to ensure reproducibility and smooth onboarding for other contributors."
 
   - company: "GadzIT - (University IT Club)"
-    company_link: ""
+    company_link: "https://gadzit.lol/"
     role: "Sponsorship and Contact Lead"
     period: "Jul 2025 - Now"
     country: "Meknes, Morocco"
@@ -33,4 +33,3 @@ experience:
     description: "Sponsorship & Contact Lead at GadzIT, I drove partnerships and secured sponsorships, helping connect the club with industry and expand its impact.."
     responsibilities:
       - " - Managed partnerships and external relations for GadzIT , Leading a team of 12 people to secure sponsorships and collaborations with tech companies."
-
