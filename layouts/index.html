@@ -362,7 +362,8 @@
             </div>
             {{ end }}
             <div class="flex justify-center mt-4 md:mt-8">
-                <a href="{{ absLangURL " projects/" }}"
+                {{ $viewAllLink := "projects/" }}
+                <a href="{{ $viewAllLink | absLangURL }}"
                     class="text-blue-500 hover:text-blue-400 transition-colors duration-200 text-sm md:text-lg">{{ T
                     "viewAll" }}</a>
             </div>
