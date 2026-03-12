@@ -1,4 +1,9 @@
 projects:
+  - title: "AtlasTickets - Cloud-Native Distributed Ticketing System"
+    description: "A production-grade event-driven ticketing platform designed to handle 50,000+ concurrent users without race conditions or overselling. Built with CQRS architecture, deployed on Kubernetes (K3s) across Oracle Cloud ARM64 instances, with full CI/CD automation, horizontal auto-scaling, and real-time observability through Prometheus and Grafana. Stress-tested with 48,077 concurrent requests achieving zero race conditions and perfect data consistency across three databases."
+    tech: "Go, Node.js, Kubernetes (K3s), PostgreSQL, MongoDB, Redis, RabbitMQ, Prometheus, Grafana, Docker, GitHub Actions, Traefik, Oracle Cloud (OCI)"
+    image: "/images/projects/atalstickets.png"
+    link: "https://github.com/khalil-nouisse/atlas-tickets"
   - title: "AI Multi-Agent System with LangChain , LangGraph and Redis"
     description: "A multi-agent system, based on a supervisor coordinating specialized agents (Sales, Technical Support, Customer Service, Email, and Diagnostics), and integrated it into a CRM application to automate tasks and improve customer interactions."
     tech: "Python, LangChain, LangGraph , LangSmith , Redis, FastAPI"
