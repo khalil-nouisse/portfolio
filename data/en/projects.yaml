@@ -1,8 +1,15 @@
 projects:
+  - title: "RoboGuard-AI - End-to-End Robotic Anomaly Detection MLOps Platform"
+    description: "A production-ready deep learning & MLOps platform for detecting anomalies in multivariate robotic time-series data. Built LSTM/GRU autoencoder pipelines for unsupervised fault detection on 250x130 telemetry windows, deployed a real-time FastAPI inference service, and integrated full observability with Prometheus and Grafana. Packaged the stack with Docker Compose and automated testing, artifact retrieval (MLflow/DagsHub), and image builds through a CI/CD pipeline on GitHub Actions."
+    tech: "Python, PyTorch, FastAPI, Uvicorn, Docker, Docker Compose, MLflow, DagsHub, Prometheus, Grafana, GitHub Actions, scikit-learn, Pandas"
+    image: "/images/projects/roboguard-ai.png"
+    link: "https://github.com/khalil-nouisse/robot-anomaly-mlops"
+
   - title: "AtlasTickets - Cloud-Native Distributed Ticketing System"
     description: "A production-grade event-driven ticketing platform designed to handle 50,000+ concurrent users without race conditions or overselling. Built with CQRS architecture, deployed on Kubernetes (K3s) across Oracle Cloud ARM64 instances, with full CI/CD automation, horizontal auto-scaling, and real-time observability through Prometheus and Grafana. Stress-tested with 48,077 concurrent requests achieving zero race conditions and perfect data consistency across three databases."
-    tech: "Go, Node.js, Kubernetes (K3s), PostgreSQL, MongoDB, Redis, RabbitMQ, Prometheus, Grafana, Docker, GitHub Actions, Traefik, Oracle Cloud (OCI)"
-    image: "/images/projects/atalstickets.png"
+    tech: "Go, Node.js, Kubernetes (K3s), Oracle Cloud (OCI), RabbitMQ, Docker, PostgreSQL, MongoDB, Redis, Prometheus, Grafana, GitHub Actions, Traefik"
+    #image: "/images/projects/GrafanaDashboard.png"
+    image: "/images/projects/atlastickets.png"
     link: "https://github.com/khalil-nouisse/atlas-tickets"
   - title: "AI Multi-Agent System with LangChain , LangGraph and Redis"
     description: "A multi-agent system, based on a supervisor coordinating specialized agents (Sales, Technical Support, Customer Service, Email, and Diagnostics), and integrated it into a CRM application to automate tasks and improve customer interactions."
