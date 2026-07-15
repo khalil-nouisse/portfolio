@@ -1,6 +1,6 @@
 projects:
   - title: "S.E.A.M - Intelligent Skills Extraction and Analysis Matrix"
-    description: "An intelligent platform developed in collaboration with CGI to analyze software projects and extract technical competencies directly from source code and project documentation. Built a distributed, event-driven architecture combining a React frontend, FastAPI backend, high-performance Go file parser, and Python AI engine. The system uses deterministic parsing, taxonomy-driven scoring, hybrid retrieval, and AI-assisted reasoning to generate explainable skill assessments with evidence tracking, confidence scores, and versioned competency matrices."
+    description: "An industry collaboration with CGI to build an intelligent platform that analyzes software projects and automatically extracts technical competencies from source code and documentation. The platform combines distributed systems, explainable AI, and evidence-driven analysis to generate accurate, auditable competency matrices while preserving source code confidentiality through a privacy-first, self-hosted architecture."
     tech: "React, FastAPI, Python, Go, RabbitMQ, PostgreSQL, pgvector, Redis, MinIO, Docker, Prometheus, Grafana, GitLab, Scrum"
     image: "/images/projects/SEAM4.png"
     link: "https://github.com/khalil-nouisse/SEAM"
