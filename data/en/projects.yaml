@@ -1,4 +1,9 @@
 projects:
+  - title: "S.E.A.M - Intelligent Skills Extraction and Analysis Matrix"
+    description: "An intelligent platform developed in collaboration with CGI to analyze software projects and extract technical competencies directly from source code and project documentation. Built a distributed, event-driven architecture combining a React frontend, FastAPI backend, high-performance Go file parser, and Python AI engine. The system uses deterministic parsing, taxonomy-driven scoring, hybrid retrieval, and AI-assisted reasoning to generate explainable skill assessments with evidence tracking, confidence scores, and versioned competency matrices."
+    tech: "React, FastAPI, Python, Go, RabbitMQ, PostgreSQL, pgvector, Redis, MinIO, Docker, Prometheus, Grafana, GitLab, Scrum"
+    image: "/images/projects/SEAM4.png"
+    link: "https://github.com/khalil-nouisse/SEAM"
   - title: "RoboGuard-AI - End-to-End Robotic Anomaly Detection MLOps Platform"
     description: "A production-ready deep learning & MLOps platform for detecting anomalies in multivariate robotic time-series data. Built LSTM/GRU autoencoder pipelines for unsupervised fault detection on 250x130 telemetry windows, deployed a real-time FastAPI inference service, and integrated full observability with Prometheus and Grafana. Packaged the stack with Docker Compose and automated testing, artifact retrieval (MLflow/DagsHub), and image builds through a CI/CD pipeline on GitHub Actions."
     tech: "Python, PyTorch, FastAPI, Uvicorn, Docker, Docker Compose, MLflow, DagsHub, Prometheus, Grafana, GitHub Actions, scikit-learn, Pandas"
