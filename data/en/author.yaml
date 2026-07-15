@@ -5,7 +5,7 @@ author:
   description: "Software Engineering Student | Cloud, DevOps & Distributed Systems | Golang Developer"
   # The specific social links used on the homepage
   email: "khalil.ait.nouisse1@gmail.com"
-  profile_image: "/images/profile.jpg" 
+  profile_image: "/images/khalil.PNG" 
   # Social links must be at this level, not inside a "social:" block
   discord: "khalil_nouisse"
   github: "https://github.com/khalil-nouisse"
@@ -19,7 +19,7 @@ author:
 
 
 
-profile_image: "/images/profile.jpg"
+profile_image: "/images/khalil.PNG"
 
 # The rest of your data, correctly indented
 education:

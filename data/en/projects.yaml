@@ -1,5 +1,5 @@
 projects:
-  - title: "S.E.A.M - Intelligent Skills Extraction and Analysis Matrix"
+  - title: "S.E.A.M - Skills Extraction & Analysis Matrix - CGI collab"
     description: "An industry collaboration with CGI to build an intelligent platform that analyzes software projects and automatically extracts technical competencies from source code and documentation. The platform combines distributed systems, explainable AI, and evidence-driven analysis to generate accurate, auditable competency matrices while preserving source code confidentiality through a privacy-first, self-hosted architecture."
     tech: "React, FastAPI, Python, Go, RabbitMQ, PostgreSQL, pgvector, Redis, MinIO, Docker, Prometheus, Grafana, GitLab, Scrum"
     image: "/images/projects/SEAM4.png"
