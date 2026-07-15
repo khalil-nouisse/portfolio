@@ -4,8 +4,8 @@ draft: false
 layout: "about"
 ---
 
-I’m a passionate builder who learns by breaking complex problems down and rebuilding them better.
+I’m a passionate engineer who enjoys solving complex problems and building intelligent systems that scale.
 
-My focus is on Cloud & Backend Engineering architecting resilient distributed systems with Go, and streamlining infrastructure using Docker and modern DevOps practices. I strive to make software not just functional, but scalable.
+My interests lie at the intersection of Artificial Intelligence, Distributed Systems, and Cloud Engineering—designing AI-powered applications, resilient software architectures, and cloud-native platforms that bridge research and production.
 
-Offline, I’m an explorer at heart, chasing sunrises and sunsets for perspective.
+Beyond technology, I’m an explorer at heart, always chasing sunrises and sunsets for a fresh perspective.

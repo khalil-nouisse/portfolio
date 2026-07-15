@@ -23,7 +23,7 @@
                     <div class="prose prose-invert prose-lg max-w-none text-left">
                         {{ .Content }}
                         <div class="mt-6 flex justify-start">
-                            <a href="/images/cv__khalil_ait_nouisse.pdf" target="_blank" rel="noopener noreferrer"
+                            <a href="{{ "/images/cv__khalil_ait_nouisse.pdf" | relURL }}" download="cv__khalil_ait_nouisse.pdf" target="_blank" rel="noopener noreferrer"
                                 class="inline-flex items-center gap-2 px-4 py-2 text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark bg-bg-tertiary-light dark:bg-bg-tertiary-dark border border-border-secondary-light dark:border-border-secondary-dark hover:border-border-primary-light dark:hover:border-border-primary-dark rounded-md transition-all font-medium text-lg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -49,9 +49,9 @@
                 class="bg-bg-primary-light dark:bg-bg-secondary-dark p-6 md:p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
                 <h2
                     class="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-text-primary-light dark:text-text-primary-dark">
-                    education </h2>
+                    Education </h2>
                 <div class="space-y-6">
-                    {{ range $authorData.education }}
+                    {{ range $authorData.Education }}
                     <div
                         class="flex flex-col gap-2 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300">
                         <div class="text-text-secondary-light dark:text-text-secondary-dark text-sm prose">{{

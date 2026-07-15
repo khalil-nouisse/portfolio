@@ -22,7 +22,7 @@ author:
 profile_image: "/images/khalil.PNG"
 
 # The rest of your data, correctly indented
-education:
+Education:
   # - institution: "École Centrale Lyon - Écully, France"
   #   title: "Master of Science in Artificial Intelligence (M2 Computer Science - Artificial Intelligence)"
   #   date: "Sep 2026 - Jul 2027"
@@ -43,11 +43,11 @@ certifications:
   - title: "Oracle Cloud Infrastructure Foundations Associate  "
     company: "Oracle"
     date: "Oct 2025"
-    url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=A5164E41288C27FEBAE166F6B1BFA42F91841964C5BA91FD0287E4F396A35617"
+    url: "https://catalog-Education.oracle.com/ords/certview/sharebadge?id=A5164E41288C27FEBAE166F6B1BFA42F91841964C5BA91FD0287E4F396A35617"
   - title: "Oracle Cloud Infrastructure AI Foundations Associate"
     company: "Oracle"
     date: "Oct 2025"
-    url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=A5164E41288C27FEBAE166F6B1BFA42F91841964C5BA91FD0287E4F396A35617"
+    url: "https://catalog-Education.oracle.com/ords/certview/sharebadge?id=A5164E41288C27FEBAE166F6B1BFA42F91841964C5BA91FD0287E4F396A35617"
   - title: "Linux Essentials Certificate"
     company: "Linux Professional Institute (LPI)"
     date: "May 2026"
