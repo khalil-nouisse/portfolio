@@ -1,4 +1,18 @@
 experience:
+  - company: "CGI × ENSAM Meknès - University-Industry Collaboration"
+    company_link: "https://www.cgi.com/"
+    role: "AI Platform Engineer"
+    period: "Feb 2026 - Jun 2026"
+    country: "Meknès, Morocco"
+    logo: "./images/company/cgi.png"
+    description: "Designed and developed S.E.A.M. (Skills Extraction & Analysis Matrix), a distributed AI platform that analyzes software projects and automatically extracts technical competencies from source code and project documentation through a hybrid explainable AI pipeline."
+    responsibilities:
+      - " - Architected a distributed AI platform using event-driven microservices."
+      - " - Developed a hybrid AI pipeline combining deterministic analysis, semantic retrieval, and LLM reasoning."
+      - " - Built a high-performance Go parser for large-scale source code analysis."
+      - " - Implemented asynchronous backend services with FastAPI and RabbitMQ."
+      - " - Integrated PostgreSQL (pgvector), Redis, and MinIO for AI data processing."
+      - " - Containerized and monitored the platform with Docker, Prometheus, and Grafana."
   - company: "LiadTECH - (SaaS Software Solutions Company)"
     company_link: "https://www.liadtech.com/"
     role: "AI Software Engineer Intern"
@@ -32,4 +46,6 @@ experience:
     logo: ""
     description: "Sponsorship & Contact Lead at GadzIT, I drove partnerships and secured sponsorships, helping connect the club with industry and expand its impact.."
     responsibilities:
-      - " - Managed partnerships and external relations for GadzIT , Leading a team of 12 people to secure sponsorships and collaborations with tech companies."
+      - " - Managed relationships with technology companies and industry partners."
+      - " - Negotiated sponsorship opportunities for technical events and competitions."
+      - " - Coordinated communication between sponsors, club leadership, and organizing teams."
