@@ -4,6 +4,6 @@ draft: false
 layout: "experience"
 ---
 
-In my experience, I’ve worked on projects at the intersection of AI, Backend Engineering, and System Architecture. I designed the global architecture for a multi-agent system integrated with a CRM application, implementing asynchronous communication with Redis and intelligent workflows using LangGraph. I also contributed to X-GATE, an AI-powered platform for businesses, where I built data ingestion pipelines and RAG workflows.
+Throughout my experience, I’ve worked on projects at the intersection of Artificial Intelligence, Backend Engineering, Distributed Systems, and AI Infrastructure. I’ve designed and developed enterprise multi-agent systems, AI copilots, and distributed AI platforms, architecting scalable backend services, event-driven workflows, and intelligent pipelines powered by LLMs and Retrieval-Augmented Generation (RAG).
 
-Beyond development, I focused on infrastructure and reproducibility by setting up full-stack Docker environments and implementing tracing for agent performance. These projects reflect my drive to build scalable, production-ready solutions that bridge the gap between intelligent algorithms and solid engineering.
+Beyond AI development, I focus on building reliable, production-ready software by designing scalable architectures, containerized environments, and observable infrastructure. My goal is to bridge the gap between intelligent algorithms and robust software engineering to deliver AI systems that are secure, maintainable, and built to scale.
