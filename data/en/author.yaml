@@ -23,12 +23,12 @@ profile_image: "/images/khalil.PNG"
 
 # The rest of your data, correctly indented
 Education:
-   - institution: "École Centrale Lyon - Écully, France"
-     title: "Master of Science in Artificial Intelligence (M2 Computer Science - Artificial Intelligence)"
-     date: "Sep 2026 - Jul 2027"
-   - institution: "École Centrale Lyon - Écully, France"
-     title: "Engineering Exchange Program (3rd Year) – Computer Science"
-     date: "Sep 2026 - Jul 2027"
+  - institution: "École Centrale Lyon - Écully, France"
+    title: "Master of Science in Artificial Intelligence (M2 Computer Science - Artificial Intelligence)"
+    date: "Sep 2026 - Jul 2027"
+  - institution: "École Centrale Lyon - Écully, France"
+    title: "Engineering Exchange Program (3rd Year) – Computer Science"
+    date: "Sep 2026 - Jul 2027"
   - institution: "National School of Arts and Crafts - Meknes, Morocco"
     title: "Software & Intelligent Systems Engineering"
     date: "Sep 2024 - Jul 2027"
