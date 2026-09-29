@@ -1,8 +1,8 @@
 # Add this "author:" key at the very top.
 author:
   name: ">_ Khalil Ait Nouisse"
-  location: "Agadir, Morocco"
-  description: "Software Engineering Student | AI, Cloud & Distributed Systems | Golang Developer"
+  location: "Lyon, France"
+  description: "AI Engineering Student | Data, Cloud & Distributed Systems | Go Developer"
   # The specific social links used on the homepage
   email: "khalil.ait.nouisse1@gmail.com"
   profile_image: "/images/khalil.PNG" 
